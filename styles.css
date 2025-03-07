@@ -1,0 +1,27 @@
+<style>
+.flexbox {
+display: flex;
+}
+.flexbox>div{
+  border: 2px solid yellow;
+}
+.img {
+width: 100%;
+height: auto;
+}
+
+.filter1 {
+filter: grayscale(100%);
+}
+
+.filter2 {
+filter: blur(5px);
+}
+
+.filter3 {
+filter: sepia(100%);
+}
+
+.filter4 {
+filter: brightness(1.5);
+}
