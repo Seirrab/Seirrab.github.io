@@ -34,14 +34,30 @@ filter: sepia(100%);
 .filter4 {
 filter: brightness(1.5);
 }
-</head>
-<body>
-<div class="container">
-<div class="item"><img src="image1.jpg" class="filter1"></div>
-<div class="item"><img src="image2.jpg" class="filter2"></div>
-<div class="item"><img src="image3.jpg" class="filter3"></div>
-<div class="item"><img src="image4.jpg" class="filter4"></div>
+<!DOCTYPE html>
+<html>
+  <head>
+  <div class="container">
+  <div class="block">
+    <h3>Bird1</h3>
+    <img src="https://live.staticflickr.com/65535/51980751292_38b3d98b76_b.jpg">
+    <p>Some text</p>
+  </div>
+  <div class="block">
+    <h3>Bird2</h3>
+    <img src="https://avatarfiles.alphacoders.com/121/121594.jpg">
+    <p>Some text</p>
+  </div>
+  <div class="block">
+   <h3>Bird3</h3>
+    <img src="https://i.redd.it/o6f2qwf7ii1a1.jpg">
+    <p>Some text</p>
+  </div>
+   <div class="block">
+    <h3>Bird4</h3>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8-DIQByMTryoybuoHV-pz0HZb-_p6XbRogg&s">
+    <p>Some text</p>
+  </div>
 </div>
-</body>
+  </body>
 </html>
-
